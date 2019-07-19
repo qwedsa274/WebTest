@@ -7,7 +7,7 @@ Version      : 1.0
 jQuery(function($) {
 	"use strict";
 
-		/*START MENU JS*/
+		/*START MENU JS
 		$(window).on('scroll', function() {
 			if ($(".navbar").offset().top > 50) {
 				$(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -15,6 +15,7 @@ jQuery(function($) {
 				$(".navbar-fixed-top").removeClass("top-nav-collapse");
 			}
 		});
+		*/
 		
 		$('a.page-scroll').on('click', function(event) {
 			var $anchor = $(this);
