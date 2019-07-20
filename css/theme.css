@@ -501,7 +501,8 @@ h6 {
 	font-size: 40px;
 	line-height: 50px;
 	margin-bottom: 0px;
-	color: #000000;
+	color: #f3780b;
+	font-weight: bolder;
 }
 
 .intro-caption .btn-container {
