@@ -1,0 +1,109 @@
+.zoom {
+    display:inline-block;
+    position: relative;
+}
+
+/* magnifying glass icon */
+.zoom:after {
+    content:'';
+    display:block; 
+    width:33px; 
+    height:33px; 
+    position:absolute; 
+    top:0;
+    right:0;
+    background:url(https://raw.githack.com/qwedsa274/WebTest/master/images/icon.png);
+}
+
+.zoom img {
+    display: block;
+}
+
+.zoom img::selection { background-color: transparent; }
+
+/* #ex2 img:hover { cursor: url(grab.cur), default; }
+#ex2 img:active { cursor: url(grabbed.cur), default; } */
+
+/* footer */
+#footer_1 {
+padding-top: 20px;
+padding-bottom: 20px;
+color: aliceblue;
+background-color: #449EFC;
+text-align: center;
+box-sizing: border-box;
+
+}
+
+.footer_top_part {
+color: #fff;
+}
+
+.footer_top_part a {
+color: #f2f2f2;
+}
+
+span:hover{
+    color: black;
+}
+
+#emil:hover{
+    color:rgb(14, 27, 148);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#demo1 {
+    font-size: 30px;
+    color: black;
+}
+
+#demo2 {
+    font-size: 25px;
+    font-weight: bolder;
+    color:cornsilk;
+}
+
+#demo3 {
+    font-size: 25px;
+    color: cornsilk;
+    font-weight: bolder;
+    border: solid 4px cornsilk;
+}
+
+#demo3:hover {
+    font-size: 45px;
+    color: black;
+    font-weight: bolder;
+    border: solid 8px #278bf5;
+}
+
+#cont1{
+    padding-bottom: 60px;
+}
+
+#cont1:hover {
+    font-size: 45px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.cont2 {
+    padding-bottom: 45px;
+    background-image: url('https://raw.githack.com/qwedsa274/WebTest/master/images/contact_bg2.jpg');
+    background-size: cover;
+}
+
+.want1 {
+    font-weight: bolder;
+}
+
+.want2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.imgborder1{
+    border: solid 3px #2739e3;
+}
