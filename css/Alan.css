@@ -107,3 +107,9 @@ span:hover{
 .imgborder1{
     border: solid 3px #2739e3;
 }
+
+.service-box:hover p {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
